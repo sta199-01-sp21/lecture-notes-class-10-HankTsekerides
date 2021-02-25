@@ -178,7 +178,7 @@ roll_results
 ```
 
 ```{r summarize_rolls}
-roll_results %>% 
+roll_results %>%
   smmarise(event_1_prob = mean(event_1),
            event_2_prob = mean(event_2))
 ```
